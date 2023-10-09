@@ -45,7 +45,7 @@ public class Main {
         int x, y, z;
         x = y = z = 60;
         System.out.println(x + y + z);
-        */
+
         // Задание 1
         String flowersName = "Roses";
         // Задание 2
@@ -106,6 +106,7 @@ public class Main {
                 System.out.println("PI: " + PI);
                 System.out.println("GRAVITY: " + GRAVITY);
                 System.out.println("HOMETOWN: " + HOMETOWN);
+                */
             }
         }
 
