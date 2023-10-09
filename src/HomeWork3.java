@@ -61,10 +61,10 @@ public class HomeWork3 {
                 System.out.println("HOMETOWN: " + HOMETOWN);
 
         // Расширяющее приведение int к double
-        int myInt = 10;
-        double myDouble = myInt;
+        int Int2 = 10;
+        double Double2 = Int2;
         // Сужающее приведение double к int
-        double myDouble = 10.5;
-        int myInt = (int) myDouble;
+        double my3Double = 10.5;
+        int my3Int = (int) my3Double;
     }
 }
