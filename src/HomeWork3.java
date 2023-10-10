@@ -23,48 +23,50 @@ public class HomeWork3 {
         int sum2 = p + q + r + s;
         System.out.println(sum2);
 
-                //  Задание 1
-                double myDouble;
-                myDouble = 7;
-                myDouble = 5;
+        //  Задание 1
+        double myDouble;
+        myDouble = 7;
+        myDouble = 5;
 
-                // Создаем константы
-                final double PI = 3.14159265359;
-                final double GRAVITY = 9.81;
-                final String HOMETOWN = "Алматы ";
+        // Создаем константы
+        final double PI = 3.14159265359;
+        final double GRAVITY = 9.81;
+        final String HOMETOWN = "Алматы ";
 
-                // Создаем переменные разных типов данных
-                byte myByte = 1;
-                short myShort = 1000;
-                int myInt = 1000000000;
-                long myLong = 1000000000000000L;
-                double myDouble2 = 1.5;
-                float myFloat = 1.12f;
-                boolean myBoolean = true;
-                char myChar = 'A';
-                String myString = "Интересная задача";
+        // Создаем переменные разных типов данных
+        byte myByte = 1;
+        short myShort = 1000;
+        int myInt = 1000000000;
+        long myLong = 1000000000000000L;
+        double myDouble2 = 1.5;
+        float myFloat = 1.12f;
+        boolean myBoolean = true;
+        char myChar = 'A';
+        String myString = "Интересная задача";
 
-                // Выводим значения переменных в консоль
-                System.out.println("myByte: " + myByte);
-                System.out.println("myShort: " + myShort);
-                System.out.println("myInt: " + myInt);
-                System.out.println("myLong: " + myLong);
-                System.out.println("myDouble2: " + myDouble2);
-                System.out.println("myFloat: " + myFloat);
-                System.out.println("myBoolean: " + myBoolean);
-                System.out.println("myChar: " + myChar);
-                System.out.println("myString: " + myString);
+        // Выводим значения переменных в консоль
+        System.out.println("myByte: " + myByte);
+        System.out.println("myShort: " + myShort);
+        System.out.println("myInt: " + myInt);
+        System.out.println("myLong: " + myLong);
+        System.out.println("myDouble2: " + myDouble2);
+        System.out.println("myFloat: " + myFloat);
+        System.out.println("myBoolean: " + myBoolean);
+        System.out.println("myChar: " + myChar);
+        System.out.println("myString: " + myString);
 
-                // Выводим значения констант
-                System.out.println("PI: " + PI);
-                System.out.println("GRAVITY: " + GRAVITY);
-                System.out.println("HOMETOWN: " + HOMETOWN);
+        // Выводим значения констант
+        System.out.println("PI: " + PI);
+        System.out.println("GRAVITY: " + GRAVITY);
+        System.out.println("HOMETOWN: " + HOMETOWN);
 
-        // Расширяющее приведение int к double
-        int Int2 = 10;
-        double Double2 = Int2;
+        // Расширяющее приведение byte к int
+        byte byte1 = 8;
+        int int1 = (int)byte1;
+        System.out.println("Расширяющее приведение: " + int1);
         // Сужающее приведение double к int
-        double my3Double = 10.5;
-        int my3Int = (int) my3Double;
+        double m = 10.5;
+        int n = (int) m;
+        System.out.println("Сужающее приведение: " + n);
     }
 }
