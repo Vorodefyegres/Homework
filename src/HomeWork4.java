@@ -47,10 +47,12 @@ public class HomeWork4 {
         System.out.println("Умножение: " + Multiplication);
         System.out.println("Деление: " + Fission);
         System.out.println("Деление по модулю: " + Module);
+
         // Задание 8. Напишите программу для преобразования градусов Фаренгейта в градусы Цельсия.
         double Fahrenheit = 95;
         double Celsius = (Fahrenheit - 32) * 5 / 9;
         System.out.println("Градусы Цельсия: " + Celsius);
+
         // Задание 9
         int num = 451;
         num += 10;
@@ -59,6 +61,7 @@ public class HomeWork4 {
         num += 5;
         num *= 5;
         System.out.println(num);
+
         // Задание 10. Проверить, верны ли условия 'a1 < 50' и 'a1 < b1'.
         int a1 = 65;
         int b1 = 80;
