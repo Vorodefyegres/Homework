@@ -12,7 +12,7 @@ public class HomeWork3 {
         int b = 10;
         System.out.println(a + b);
         // Задание 5
-        int c = (a + b);
+        int c = a + b;
         System.out.println(c);
         // Задание 6
         int x = 5, y = 10, z = 15;

@@ -112,7 +112,6 @@ System.out.println("myString: " + myString);
 System.out.println("PI: " + PI);
 System.out.println("GRAVITY: " + GRAVITY);
 System.out.println("HOMETOWN: " + HOMETOWN);
-*/
        int a = 5;
         System.out.println("a += 10: " + (a += 10));
         System.out.println("a -= 3: " + (a -= 3));
@@ -120,5 +119,13 @@ System.out.println("HOMETOWN: " + HOMETOWN);
         System.out.println("a /= 6: " + (a /= 6));
         System.out.println("a <<= 4: " + (a <<= 4));
         System.out.println("a >>= 3: " + (a >>= 3));
+
+        System.out.print(20*20 + "DarU ");
+        System.out.println("DarU" + 20*20);
+
+        int a = 24;
+        int b = -5;
+        System.out.println(a%b);
+*/
     }
 }

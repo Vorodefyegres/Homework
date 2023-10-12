@@ -9,12 +9,12 @@ public class HomeWork4 {
         System.out.println(result2);
 
         // Задание 3. Напишите программу для вычисления площади и периметра прямоугольника.
-        int Длина = 15;
-        int Ширина = 9;
-        int Площадь = Длина * Ширина;
-        int Периметр = 2 * (Длина + Ширина);
-        System.out.println("Площадь: " + Площадь);
-        System.out.println("Периметр: " + Периметр);
+        int Length = 15;
+        int Width = 9;
+        int Area = Length * Width;
+        int Perimeter = 2 * (Length + Width);
+        System.out.println("Площадь: " + Area);
+        System.out.println("Периметр: " + Perimeter);
 
         // Задание 4. Увеличить значение x на 1 с помощью префиксной и постфиксной форм.
         int x = 5;
@@ -30,27 +30,27 @@ public class HomeWork4 {
         // Задание 6. Напишите программу для проверки равенства двух чисел 25 и 43.
         int num1 = 25;
         int num2 = 43;
-        boolean Проверка = num1 == num2;
-        System.out.println(Проверка);
+        boolean Checking = num1 == num2;
+        System.out.println(Checking);
 
         // Задание 7. Напишите программу для сложения, вычитания, умножения, деления, деления по модулю.
         int a = 16;
         int b = 8;
         int c = a + b;
-        int Разность = a - b;
-        int Умножение = a * b;
-        int Деление = a / b;
-        int Модуль = a % b;
+        int difference = a - b;
+        int Multiplication = a * b;
+        int Fission = a / b;
+        int Module = a % b;
 
         System.out.println("Сумма: " + c);
-        System.out.println("Разность: " + Разность);
-        System.out.println("Умножение: " + Умножение);
-        System.out.println("Деление: " + Деление);
-        System.out.println("Деление по модулю: " + Модуль);
+        System.out.println("Разность: " + difference);
+        System.out.println("Умножение: " + Multiplication);
+        System.out.println("Деление: " + Fission);
+        System.out.println("Деление по модулю: " + Module);
         // Задание 8. Напишите программу для преобразования градусов Фаренгейта в градусы Цельсия.
-        double Фаренгейт = 95;
-        double Цельсий = (Фаренгейт - 32) * 5 / 9;
-        System.out.println("Градусы Цельсия: " + Цельсий);
+        double Fahrenheit = 95;
+        double Celsius = (Fahrenheit - 32) * 5 / 9;
+        System.out.println("Градусы Цельсия: " + Celsius);
         // Задание 9
         int num = 451;
         num += 10;
@@ -62,9 +62,9 @@ public class HomeWork4 {
         // Задание 10. Проверить, верны ли условия 'a1 < 50' и 'a1 < b1'.
         int a1 = 65;
         int b1 = 80;
-        boolean Условие1 = a < 50;
-        boolean Условие2 = a < b;
-        System.out.println("Первое условие: " + Условие1);
-        System.out.println("Второе условие: " + Условие2);
+        boolean Condition1 = a < 50;
+        boolean Condition2 = a < b;
+        System.out.println("Первое условие: " + Condition1);
+        System.out.println("Второе условие: " + Condition2);
     }
 }

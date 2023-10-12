@@ -1,0 +1,33 @@
+
+X
+java:S1854"<Remove this useless assignment to local variable "myDouble".(‹±Ûq8’ëÜÏ±1
+^
+java:S1854"<Remove this useless assignment to local variable "myDouble".(É ë‘şÿÿÿÿ8’ëÜÏ±1
+`
+java:S1659">Declare "y" and all following declarations on a separate line.(ŞñÛËüÿÿÿÿ8“ëÜÏ±1
+`
+java:S1659">Declare "q" and all following declarations on a separate line.(¹¢¯—ùÿÿÿÿ8“ëÜÏ±1
+G	java:S106"+Replace this use of System.out by a logger.(¿íø8”ëÜÏ±1
+L	java:S106	"+Replace this use of System.out by a logger.(µÒ«Ñşÿÿÿÿ8”ëÜÏ±1
+G	java:S106"+Replace this use of System.out by a logger.(­ –8•ëÜÏ±1
+G	java:S106"+Replace this use of System.out by a logger.(Áß‡Ü8•ëÜÏ±1
+L	java:S106"+Replace this use of System.out by a logger.(öãÚØÿÿÿÿÿ8•ëÜÏ±1
+G	java:S106"+Replace this use of System.out by a logger.(«Ãıû8–ëÜÏ±1
+O
+java:S1481"-Remove this unused "myDouble" local variable.(ò¹‹İùÿÿÿÿ8–ëÜÏ±1
+L	java:S1060"+Replace this use of System.out by a logger.(³á€Âøÿÿÿÿ8—ëÜÏ±1
+L	java:S1061"+Replace this use of System.out by a logger.(ùóíİşÿÿÿÿ8—ëÜÏ±1
+L	java:S1062"+Replace this use of System.out by a logger.(Öæñ¥üÿÿÿÿ8—ëÜÏ±1
+G	java:S1063"+Replace this use of System.out by a logger.(ø•ß’8—ëÜÏ±1
+G	java:S1064"+Replace this use of System.out by a logger.(÷Ô¬²8—ëÜÏ±1
+G	java:S1065"+Replace this use of System.out by a logger.(Ë¨Œ8˜ëÜÏ±1
+G	java:S1066"+Replace this use of System.out by a logger.(™å¬½8˜ëÜÏ±1
+L	java:S1067"+Replace this use of System.out by a logger.(îÍá¦ùÿÿÿÿ8˜ëÜÏ±1
+G	java:S1068"+Replace this use of System.out by a logger.(Ğ×²ù8˜ëÜÏ±1
+G	java:S106;"+Replace this use of System.out by a logger.(×ƒğƒ8˜ëÜÏ±1
+G	java:S106<"+Replace this use of System.out by a logger.(«âè†8™ëÜÏ±1
+G	java:S106="+Replace this use of System.out by a logger.(³ñ¢ã8™ëÜÏ±1
+B
+java:S1905A"&Remove this unnecessary cast to "int".(‡‘úT8™ëÜÏ±1
+L	java:S106B"+Replace this use of System.out by a logger.(»Ç§Øúÿÿÿÿ8™ëÜÏ±1
+F	java:S106F"+Replace this use of System.out by a logger.(ÏÑÅY8šëÜÏ±1
