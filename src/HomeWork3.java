@@ -5,8 +5,7 @@ public class HomeWork3 {
         // Задание 2
         int flowersNumber = 101;
         // Задание 3
-        System.out.println(flowersName);
-        System.out.println(flowersNumber);
+        System.out.println(flowersName + " " + flowersNumber);
         // Задание 4
         int a = 15;
         int b = 10;

@@ -122,10 +122,47 @@ System.out.println("HOMETOWN: " + HOMETOWN);
 
         System.out.print(20*20 + "DarU ");
         System.out.println("DarU" + 20*20);
-
-        int a = 24;
-        int b = -5;
-        System.out.println(a%b);
 */
+        // i)
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 10; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        // Пустая строка для разделения вывода
+        System.out.println();
+
+        // ii)
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        // Пустая строка для разделения вывода
+        System.out.println();
+
+        // iii)
+        for (int i = 1; i <= 5; i++) {
+            // Вывод пробелов
+            for (int j = 5; j > i; j--) {
+                System.out.print("  ");
+            }
+
+            // Вывод убывающей последовательности
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j);
+            }
+
+            // Вывод возрастающей последовательности
+            for (int j = 2; j <= i; j++) {
+                System.out.print(j);
+            }
+
+            System.out.println();
+        }
     }
 }
