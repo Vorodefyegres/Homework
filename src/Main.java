@@ -1,11 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-    /*System.out.println("Hello world!");
-//System.out.println("Hello, Java!");
-System.out.println("Hello, Java!");
-//System.out.println("Hello, Java!");
-System.out.println("Hello world!");
-System.out.println("Hello, Java!");
+       /*
 short a = 20;
 short b = -20;
 System.out.println(a + b);
@@ -112,57 +107,13 @@ System.out.println("myString: " + myString);
 System.out.println("PI: " + PI);
 System.out.println("GRAVITY: " + GRAVITY);
 System.out.println("HOMETOWN: " + HOMETOWN);
-       int a = 5;
-        System.out.println("a += 10: " + (a += 10));
-        System.out.println("a -= 3: " + (a -= 3));
-        System.out.println("a *= 2: " + (a *= 2));
-        System.out.println("a /= 6: " + (a /= 6));
-        System.out.println("a <<= 4: " + (a <<= 4));
-        System.out.println("a >>= 3: " + (a >>= 3));
-
-        System.out.print(20*20 + "DarU ");
-        System.out.println("DarU" + 20*20);
-*/
-        // i)
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 10; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-        // Пустая строка для разделения вывода
-        System.out.println();
-
-        // ii)
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-        // Пустая строка для разделения вывода
-        System.out.println();
-
-        // iii)
-        for (int i = 1; i <= 5; i++) {
-            // Вывод пробелов
-            for (int j = 5; j > i; j--) {
-                System.out.print("  ");
-            }
-
-            // Вывод убывающей последовательности
-            for (int j = i; j >= 1; j--) {
-                System.out.print(j);
-            }
-
-            // Вывод возрастающей последовательности
-            for (int j = 2; j <= i; j++) {
-                System.out.print(j);
-            }
-
-            System.out.println();
-        }
+int a = 5;
+System.out.println("a += 10: " + (a += 10));
+System.out.println("a -= 3: " + (a -= 3));
+System.out.println("a *= 2: " + (a *= 2));
+System.out.println("a /= 6: " + (a /= 6));
+System.out.println("a <<= 4: " + (a <<= 4));
+System.out.println("a >>= 3: " + (a >>= 3));
+ */
     }
 }
