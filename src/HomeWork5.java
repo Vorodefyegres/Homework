@@ -71,16 +71,35 @@ public class HomeWork5 {
         }
         System.out.println();
         // ii)
-        String s = "*";
-        for (int j = 0; j < 4; j++) {
+        String s = "";
+        for (int j = 0; j < 5; j++) {
             s += "*";
             System.out.println(s);
         }
         System.out.println();
         // iii)
+        String q = "";
+        for (int i = 1; i <= 5; i++) {
+            if(i == 1)
+            q = q + i;
+            else
+                q = i + q + i;
+            for (int j = 5 - i; j > 0; j--) {
+            System.out.print(" ");
+            }
+        System.out.println(q);
+        }
 
+        System.out.println("------");
         // Task 7
+        int a = 3, m = 7;
+        int result = 0;
+        for (int i = a + 1; i < m; i++) {
+            result += i;
+        }
+        System.out.println(result);
 
+        System.out.println("------");
         // Task 8
 
         // Task 9
