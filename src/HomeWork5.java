@@ -112,6 +112,7 @@ public class HomeWork5 {
             System.out.print(result1 + " ");
             p1 = p2;
             p2 = result1;
+
         }
     }
 }
