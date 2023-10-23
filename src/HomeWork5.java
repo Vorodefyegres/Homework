@@ -51,15 +51,15 @@ public class HomeWork5 {
         // Task 5
         int num = 11;
         boolean isPrime = true;
-        for (int i = 2; i < num; i++ ) {
+        for (int i = 2; i < num; i++) {
             if (num % i == 0) {
-            isPrime = false;
-            break;
+                isPrime = false;
+                break;
             }
         }
         if (isPrime) {
             System.out.println("Prime");
-            } else {
+        } else {
             System.out.println("Not prime");
         }
 
@@ -80,19 +80,19 @@ public class HomeWork5 {
         // iii)
         String q = "";
         for (int i = 1; i <= 5; i++) {
-            if(i == 1)
-            q = q + i;
+            if (i == 1)
+                q = q + i;
             else
                 q = i + q + i;
             for (int j = 5 - i; j > 0; j--) {
-            System.out.print(" ");
+                System.out.print(" ");
             }
-        System.out.println(q);
+            System.out.println(q);
         }
 
         System.out.println("------");
         // Task 7
-        int a = 3, m = 7;
+        int a = 3, m = 6;
         int result = 0;
         for (int i = a + 1; i < m; i++) {
             result += i;
@@ -101,8 +101,33 @@ public class HomeWork5 {
 
         System.out.println("------");
         // Task 8
+        int salary = 300000;
+        char grade1 = 'B';
+        double bonus = 0;
+        switch (grade1) {
+            case 'A':
+                bonus = 0.5;
+                break;
+            case 'B':
+                bonus = 0.25;
+                break;
+            default:
+                bonus = 0;
+        }
+        System.out.println(salary + salary * bonus);
 
+        System.out.println("------");
         // Task 9
-
+        int h = 10;
+        int p1 = 0, p2 = 1;
+        System.out.print(p1 + " ");
+        if (n > 0)
+            System.out.print(p2 + " ");
+        for (int f = 2; f < h; f++) {
+            int result1 = p1 + p2;
+            System.out.print(result1 + " ");
+            p1 = p2;
+            p2 = result1;
+        }
     }
 }
