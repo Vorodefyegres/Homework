@@ -8,8 +8,6 @@ public class HomeWork5 {
         } else {
             System.out.println("Not Sqare");
         }
-
-        System.out.println("------");
         // Task 2
         double sum = 10000;
         double discount = 0.1;
@@ -17,8 +15,6 @@ public class HomeWork5 {
             sum = sum - (sum * discount);
         }
         System.out.println(sum);
-
-        System.out.println("------");
         // Task 3
         int point = 75;
         char grade;
@@ -36,8 +32,6 @@ public class HomeWork5 {
             grade = 'A';
         }
         System.out.println("Ваша оценка: " + grade);
-
-        System.out.println("------");
         // Task 4
         int n = 579;
         while (n > 0) {
@@ -46,8 +40,6 @@ public class HomeWork5 {
             System.out.print(r);
         }
         System.out.println();
-
-        System.out.println("------");
         // Task 5
         int num = 11;
         boolean isPrime = true;
@@ -62,8 +54,6 @@ public class HomeWork5 {
         } else {
             System.out.println("Not prime");
         }
-
-        System.out.println("------");
         // Task 6
         // i)
         for (int i = 0; i < 4; i++) {
@@ -89,8 +79,6 @@ public class HomeWork5 {
             }
             System.out.println(q);
         }
-
-        System.out.println("------");
         // Task 7
         int a = 3, m = 6;
         int result = 0;
@@ -98,8 +86,6 @@ public class HomeWork5 {
             result += i;
         }
         System.out.println(result);
-
-        System.out.println("------");
         // Task 8
         int salary = 300000;
         char grade1 = 'B';
@@ -115,8 +101,6 @@ public class HomeWork5 {
                 bonus = 0;
         }
         System.out.println(salary + salary * bonus);
-
-        System.out.println("------");
         // Task 9
         int h = 10;
         int p1 = 0, p2 = 1;
