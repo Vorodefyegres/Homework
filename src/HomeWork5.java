@@ -112,7 +112,76 @@ public class HomeWork5 {
             System.out.print(result1 + " ");
             p1 = p2;
             p2 = result1;
+        }
+        // Additional task 1
+        int l = 7;
+        if (l % 2 == 0) {
+            System.out.println(l + " even");
+        } else {
+            System.out.println(l + " odd");
+        }
+        // Additional task 2
+        int r1 = 12;
+        int r2 = 11;
+        if (r1 > r2) {
+            System.out.println(r1 + " > " + r2);
+        } else if (r1 < r2) {
+            System.out.println(r1 + " < " + r2);
+        } else {
+            System.out.println(r1 + " = " + r2);
+        }
+        // Additional task 3
+        int year = 2024;
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println(year + " - leap year");
+        } else {
+            System.out.println(year + " - not leap year");
+        }
+        // Additional task 4
+        int dayNumber = 4;
+        String dayName = "";
 
+        if (dayNumber == 1) dayName = "Monday";
+        else if (dayNumber == 2) dayName = "Tuesday";
+        else if (dayNumber == 3) dayName = "Wednesday";
+        else if (dayNumber == 4) dayName = "Thursday";
+        else if (dayNumber == 5) dayName = "Friday";
+        else if (dayNumber == 6) dayName = "Saturday";
+        else if (dayNumber == 7) dayName = "Sunday";
+
+        if (!dayName.isEmpty()) {
+            System.out.println(dayName);
+        } else {
+        }
+        // Additional task 5
+        double x = 3.5;
+        double y = -2.8;
+
+        if (x > 0 && y > 0) {
+            System.out.println("Point is in the first quadrant");
+        } else if (x < 0 && y > 0) {
+            System.out.println("Point is in the second quadrant");
+        } else if (x < 0 && y < 0) {
+            System.out.println("Point is in the third quadrant");
+        } else if (x > 0 && y < 0) {
+            System.out.println("Point is in the fourth quadrant");
+        } else if (x == 0 && y != 0) {
+            System.out.println("Point lies on the Y axis");
+        } else if (x != 0 && y == 0) {
+            System.out.println("Point lies on the X axis");
+        } else if (x == 0 && y == 0) {
+            System.out.println("Point is the origin");
+        }
+        // Additional task 6
+        double side1 = 3.0;
+        double side2 = 4.0;
+        double side3 = 5.0;
+        if (side1 == side2 && side2 == side3) {
+            System.out.println("Equilateral triangle");
+        } else if (side1 == side2 || side2 == side3 || side1 == side3) {
+            System.out.println("Isosceles triangle");
+        } else {
+            System.out.println("Scalene triangle");
         }
     }
 }
