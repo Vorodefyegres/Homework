@@ -17,10 +17,10 @@ public class HomeWork4 {
         System.out.println("Периметр: " + Perimeter);
 
         // Task 4
-        int x = 5;
-        System.out.println("Префиксная форма: " + (++x));
-        x = 5; // "Сбросим" значение переменной x
-        System.out.println("Постфиксная форма: " + (x++));
+        int x = 10;
+        System.out.println(++x);
+        System.out.println(x++);
+        System.out.println(x);
 
         // Task 5
         int x1 = 10;
@@ -30,23 +30,23 @@ public class HomeWork4 {
         // Task 6
         int num1 = 25;
         int num2 = 43;
-        boolean Checking = num1 == num2;
-        System.out.println(Checking);
+        boolean isEqual = num1 == num2;
+        System.out.println(isEqual);
 
         // Task 7
         int a = 16;
         int b = 8;
         int c = a + b;
-        int difference = a - b;
-        int Multiplication = a * b;
-        int Fission = a / b;
-        int Module = a % b;
+        int d = a - b;
+        int m = a * b;
+        int f = a / b;
+        int module = a % b;
 
         System.out.println("Сумма: " + c);
-        System.out.println("Разность: " + difference);
-        System.out.println("Умножение: " + Multiplication);
-        System.out.println("Деление: " + Fission);
-        System.out.println("Деление по модулю: " + Module);
+        System.out.println("Разность: " + d);
+        System.out.println("Умножение: " + m);
+        System.out.println("Деление: " + f);
+        System.out.println("Деление по модулю: " + module);
 
         // Task 8
         double Fahrenheit = 95;
@@ -55,19 +55,14 @@ public class HomeWork4 {
 
         // Task 9
         int num = 451;
-        num += 10;
-        num /= 3;
-        num %= 5;
-        num += 5;
-        num *= 5;
-        System.out.println(num);
+        int result3 = (Math.abs((451 + 10) / 3) + 5) * 5;
+        System.out.println(result3);
 
         // Task 10
         int a1 = 65;
         int b1 = 80;
-        boolean Condition1 = a < 50;
-        boolean Condition2 = a < b;
-        System.out.println("Первое условие: " + Condition1);
-        System.out.println("Второе условие: " + Condition2);
+        boolean c1 = a < 50;
+        boolean c2 = a < b;
+        System.out.println(c1 && c2);
     }
 }

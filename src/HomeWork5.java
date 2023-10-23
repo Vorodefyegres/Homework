@@ -10,27 +10,29 @@ public class HomeWork5 {
         }
         // Task 2
         double sum = 10000;
-        double discount = 0.1;
-        if (sum > 5000) {
-            sum = sum - (sum * discount);
+        if (sum >= 5000) {
+            sum *= 0.9;
         }
         System.out.println(sum);
         // Task 3
-        int point = 75;
-        char grade;
-        if (point < 25) {
-            grade = 'F';
-        } else if (point >= 25 && point < 45) {
-            grade = 'E';
-        } else if (point >= 45 && point < 50) {
-            grade = 'D';
-        } else if (point >= 50 && point < 60) {
-            grade = 'C';
-        } else if (point >= 60 && point <= 80) {
-            grade = 'B';
+        int grade = 75;
+        char letter;
+        if (grade <= 25) {
+            letter = 'F';
+        } else if (grade > 25 && grade <= 45) {
+            letter = 'E';
+        } else if (grade > 45 && grade <= 50) {
+            letter = 'D';
+        } else if (grade > 50 && grade <= 60) {
+            letter = 'C';
+        } else if (grade > 60 && grade <= 80) {
+            letter = 'B';
+        } else if (grade > 80 && grade <= 100) {
+            letter = 'A';
         } else {
-            grade = 'A';
+            System.out.println("Incorrect value");
         }
+
         System.out.println("Ваша оценка: " + grade);
         // Task 4
         int n = 579;
