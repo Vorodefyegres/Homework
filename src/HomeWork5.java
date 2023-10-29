@@ -17,23 +17,28 @@ public class HomeWork5 {
         // Task 3
         int grade = 75;
         char letter;
-        if (grade <= 25) {
-            letter = 'F';
-        } else if (grade > 25 && grade <= 45) {
-            letter = 'E';
-        } else if (grade > 45 && grade <= 50) {
-            letter = 'D';
-        } else if (grade > 50 && grade <= 60) {
-            letter = 'C';
-        } else if (grade > 60 && grade <= 80) {
-            letter = 'B';
-        } else if (grade > 80 && grade <= 100) {
-            letter = 'A';
+
+        if (grade >= 0) {
+            if (grade <= 25) {
+                letter = 'F';
+            } else if (grade > 25 && grade <= 45) {
+                letter = 'E';
+            } else if (grade > 45 && grade <= 50) {
+                letter = 'D';
+            } else if (grade > 50 && grade <= 60) {
+                letter = 'C';
+            } else if (grade > 60 && grade <= 80) {
+                letter = 'B';
+            } else if (grade > 80 && grade <= 100) {
+                letter = 'A';
+            } else {
+                System.out.println("Incorrect value");
+            }
+
+            System.out.println("Ваша оценка: " + grade);
         } else {
             System.out.println("Incorrect value");
         }
-
-        System.out.println("Ваша оценка: " + grade);
         // Task 4
         int n = 579;
         while (n > 0) {
@@ -48,7 +53,6 @@ public class HomeWork5 {
         for (int i = 2; i < num; i++) {
             if (num % i == 0) {
                 isPrime = false;
-                break;
             }
         }
         if (isPrime) {
@@ -59,7 +63,10 @@ public class HomeWork5 {
         // Task 6
         // i)
         for (int i = 0; i < 4; i++) {
-            System.out.println("**********");
+            for (int p = 0; p < 10; p++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
         System.out.println();
         // ii)
@@ -93,21 +100,17 @@ public class HomeWork5 {
         char grade1 = 'B';
         double bonus = 0;
         switch (grade1) {
-            case 'A':
-                bonus = 0.5;
-                break;
-            case 'B':
-                bonus = 0.25;
-                break;
-            default:
-                bonus = 0;
+            case 'A' -> bonus = 0.5;
+            case 'B' -> bonus = 0.25;
+            default -> bonus = 0;
         }
+
         System.out.println(salary + salary * bonus);
         // Task 9
         int h = 10;
         int p1 = 0, p2 = 1;
         System.out.print(p1 + " ");
-        if (n > 0)
+        if (h > 0)
             System.out.print(p2 + " ");
         for (int f = 2; f < h; f++) {
             int result1 = p1 + p2;
@@ -115,6 +118,7 @@ public class HomeWork5 {
             p1 = p2;
             p2 = result1;
         }
+
         // Additional task 1
         int l = 7;
         if (l % 2 == 0) {
@@ -141,20 +145,21 @@ public class HomeWork5 {
         }
         // Additional task 4
         int dayNumber = 4;
-        String dayName = "";
-
-        if (dayNumber == 1) dayName = "Monday";
-        else if (dayNumber == 2) dayName = "Tuesday";
-        else if (dayNumber == 3) dayName = "Wednesday";
-        else if (dayNumber == 4) dayName = "Thursday";
-        else if (dayNumber == 5) dayName = "Friday";
-        else if (dayNumber == 6) dayName = "Saturday";
-        else if (dayNumber == 7) dayName = "Sunday";
+        String dayName = switch (dayNumber) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> "";
+        };
 
         if (!dayName.isEmpty()) {
             System.out.println(dayName);
-        } else {
         }
+
         // Additional task 5
         double x = 3.5;
         double y = -2.8;

@@ -1,16 +1,17 @@
 
-O
-java:S1199"-Extract this nested code block into a method.(üÈÔÆûÿÿÿÿ8“ÜÕÂ³1
-P
-java:S1199‚"-Extract this nested code block into a method.(äæ¨úùÿÿÿÿ8“ÜÕÂ³1
-
-java:S2681"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(üÈÔÆûÿÿÿÿ8“ÜÕÂ³1
-
-java:S2681‚"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(äæ¨úùÿÿÿÿ8“ÜÕÂ³1
-]	java:S125"<This block of commented-out lines of code should be removed.(Ûˆ¡üøÿÿÿÿ8£ÜÕÂ³1
->
-java:S1116"Remove this empty statement.(üÈÔÆûÿÿÿÿ8¤ÜÕÂ³1
-M	java:S106€"+Replace this use of System.out by a logger.(Ò­ôåúÿÿÿÿ8¤ÜÕÂ³1
-?
-java:S1116‚"Remove this empty statement.(äæ¨úùÿÿÿÿ8¨ÜÕÂ³1
-H	java:S106ƒ"+Replace this use of System.out by a logger.(ÜÓÉæ8¨ÜÕÂ³1
+\
+java:S1854y":Remove this useless assignment to local variable "letter".(æ»–·úÿÿÿÿ8öŠ­Ù·1
+V
+java:S1854{":Remove this useless assignment to local variable "letter".(˜ÜÕe8÷Š­Ù·1
+W
+java:S1854}":Remove this useless assignment to local variable "letter".(¨Ÿ›8÷Š­Ù·1
+W
+java:S1854":Remove this useless assignment to local variable "letter".(ëÔï8÷Š­Ù·1
+]
+java:S1854":Remove this useless assignment to local variable "letter".(€ñùÿÿÿÿÿ8÷Š­Ù·1
+]
+java:S1854ƒ":Remove this useless assignment to local variable "letter".(Èèòşÿÿÿÿ8÷Š­Ù·1
+X	java:S125"<This block of commented-out lines of code should be removed.(ƒıí«8ûé©Ù·1
+H
+java:S1481w"+Remove this unused "letter" local variable.(ÒÊÙ¼8úŠ­Ù·1
+M	java:S106…"+Replace this use of System.out by a logger.(ÄºŞşÿÿÿÿ8ûŠ­Ù·1

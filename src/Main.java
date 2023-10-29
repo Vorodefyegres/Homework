@@ -115,5 +115,19 @@ System.out.println("a /= 6: " + (a /= 6));
 System.out.println("a <<= 4: " + (a <<= 4));
 System.out.println("a >>= 3: " + (a >>= 3));
  */
+        int[] numbers2 = {1, 3, 4, 1, 5, 5};
+        System.out.print("Дубликаты = ");
+        for (int i = 0; i < numbers2.length; i++) {
+            boolean isDuplicate = false;
+            for (int j = i + 1; j < numbers2.length; j++) {
+                if (numbers2[i] == numbers2[j]) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+            if (isDuplicate) {
+                System.out.print(numbers2[i] + ", ");
+            }
+        }
     }
 }
