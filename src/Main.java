@@ -115,5 +115,22 @@ System.out.println("a /= 6: " + (a /= 6));
 System.out.println("a <<= 4: " + (a <<= 4));
 System.out.println("a >>= 3: " + (a >>= 3));
  */
+        int[][] numbers9 = {{4, 2, 1}, {2, 7, 2}
+        };
+
+        int a1 = numbers9.length, a2 = numbers9[0].length;
+        int[][] numbers9New = new int[a2][a1];
+        for (int i = 0; i < a1; i++) {
+            for (int j = 0; j < a2; j++) {
+                numbers9New[j][i] = numbers9[i][j];
+            }
+        }
+
+        for (int i = 0; i < a2; i++) {
+            for (int j = 0; j < a1; j++) {
+                System.out.print(numbers9New[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

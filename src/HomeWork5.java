@@ -19,7 +19,7 @@ public class HomeWork5 {
         char letter;
 
         if (grade >= 0) {
-            if (grade <= 25) {
+            if (grade >= 0 && grade <= 25) {
                 letter = 'F';
             } else if (grade > 25 && grade <= 45) {
                 letter = 'E';
