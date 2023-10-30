@@ -200,9 +200,7 @@ public class HomeWork6 {
         }
 
         // Task 9.2
-        int[][] numbers9 = {{4, 2, 1}, {2, 7, 2}
-        };
-
+        int[][] numbers9 = {{4, 2, 1}, {2, 7, 2}};
         int a1 = numbers9.length, a2 = numbers9[0].length;
         int[][] numbers9New = new int[a2][a1];
         for (int i = 0; i < a1; i++) {
@@ -219,8 +217,7 @@ public class HomeWork6 {
         }
 
         // Task 10
-        int[][] numbers10 = {{10, 20, 30}, {40, 50, 60}
-        };
+        int[][] numbers10 = {{10, 20, 30}, {40, 50, 60}};
         int sum = 0;
 
         for (int i = 0; i < numbers10.length; i++) {
@@ -231,8 +228,7 @@ public class HomeWork6 {
         System.out.println("Сумма = " + sum);
 
         // Task 11.1
-        int[][] numbers11 = {{10, 20, 30}, {40, 50, 60}
-        };
+        int[][] numbers11 = {{10, 20, 30}, {40, 50, 60}};
         boolean isSquare = true;
         int c1 = numbers11.length;
 
@@ -246,9 +242,7 @@ public class HomeWork6 {
         System.out.println(isSquare);
 
         // Task 11.2
-        int[][] numbers12 = {{10, 20}, {40, 50}
-        };
-
+        int[][] numbers12 = {{10, 20}, {40, 50}};
         boolean isSquare1 = true;
         int c2 = numbers12.length;
 
@@ -279,8 +273,7 @@ public class HomeWork6 {
         }
 
         // Task 13
-        int[][] numbers13 = {{10, 20, 30}, {40, 50, 60}
-        };
+        int[][] numbers13 = {{10, 20, 30}, {40, 50, 60}};
 
         int max = numbers13[0][0];
         int min = numbers13[0][0];
@@ -300,18 +293,142 @@ public class HomeWork6 {
         System.out.println("Минимальный элемент = " + min);
 
         // Additional task 1
+        int[][] numbers14 = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
+        int target = 20;
+        int row = -1;
+        int col = -1;
+        boolean found = false;
+
+        for (int i = 0; i < numbers14.length; i++) {
+            for (int j = 0; j < numbers14[i].length; j++) {
+                if (numbers14[i][j] == target) {
+                    row = i;
+                    col = j;
+                    found = true;
+                    break;
+                }
+            }
+            if (found) {
+                break;
+            }
+        }
+
+        if (found) {
+            System.out.println("Элемент " + target + " найден в строке " + row + " и столбце " + col + ".");
+        } else {
+            System.out.println("Элемент " + target + " не найден в массиве.");
+        }
 
         // Additional task 2
+        int[][] numbers15 = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
+
+        for (int i = 0; i < numbers15.length; i++) {
+            int sum1 = 0;
+            for (int j = 0; j < numbers15[i].length; j++) {
+                sum1 += numbers15[i][j];
+            }
+            double average = (double) sum1 / numbers15[i].length;
+            System.out.println("Среднее значение в строке " + i + " = " + average);
+        }
 
         // Additional task 3
+        int[][] numbers18 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+        int num2 = numbers18.length, num3 = numbers18[0].length;
+        int[][] matrix = new int[num3][num2];
+
+        for (int i = 0; i < num2; i++) {
+            for (int j = 0; j < num3; j++) {
+                matrix[j][i] = numbers18[i][j];
+            }
+        }
+
+        for (int i = 0; i < num3; i++) {
+            for (int j = 0; j < num2; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
 
         // Additional task 4
+        int[][] numbers16 = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
+
+        int max2 = numbers16[0][0];
+        int min2 = numbers16[0][0];
+
+        for (int i = 0; i < numbers16.length; i++) {
+            for (int j = 0; j < numbers16[i].length; j++) {
+                if (numbers16[i][j] > max2) {
+                    max2 = numbers16[i][j];
+                }
+                if (numbers16[i][j] < min2) {
+                    min2 = numbers16[i][j];
+                }
+            }
+        }
+
+        System.out.println("Max  = " + max2);
+        System.out.println("Min = " + min2);
 
         // Additional task 5
+        int[][] numbers17 = {{45, 23, 10}, {56, 72, 15}, {32, 89, 47}};
 
+        for (int i = 0; i < numbers17.length; i++) {
+            for (int j = 0; j < numbers17[i].length - 1; j++) {
+                for (int k = 0; k < numbers17[i].length - 1 - j; k++) {
+                    if (numbers17[i][k] > numbers17[i][k + 1]) {
+                        int temp = numbers17[i][k];
+                        numbers17[i][k] = numbers17[i][k + 1];
+                        numbers17[i][k + 1] = temp;
+                    }
+                }
+            }
+        }
+
+        for (int i = 0; i < numbers17.length; i++) {
+            for (int j = 0; j < numbers17[i].length; j++) {
+                System.out.print(numbers17[i][j] + " ");
+            }
+            System.out.println();
+        }
         // Additional task 6
+        int[][] numbers19 = {{1, 2, 3}, {2, 4, 5}, {3, 5, 6}};
+        boolean isSymmetric = true;
 
+        for (int i = 0; i < numbers19.length; i++) {
+            for (int j = 0; j < i; j++) {
+                if (numbers19[i][j] != numbers19[j][i]) {
+                    isSymmetric = false;
+                    break;
+                }
+            }
+            if (!isSymmetric) {
+                break;
+            }
+        }
+
+        if (isSymmetric) {
+            System.out.println("Матрица симметрична");
+        } else {
+            System.out.println("Матрица не симметрична");
+        }
         // Additional task 7
+        int[][] originalMatrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        int num4 = originalMatrix.length;
+        int num5 = originalMatrix[0].length;
+        int[][] rotatedMatrix = new int[num5][num4];
 
+        for (int i = 0; i < num4; i++) {
+            for (int j = 0; j < num5; j++) {
+                rotatedMatrix[j][num4 - i - 1] = originalMatrix[i][j];
+            }
+        }
+
+        for (int i = 0; i < num5; i++) {
+            for (int j = 0; j < num4; j++) {
+                System.out.print(rotatedMatrix[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
