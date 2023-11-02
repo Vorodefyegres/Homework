@@ -61,59 +61,6 @@ System.out.println(sum1);
 int p = 3, q = 3, r = 3, s = 3;
 int sum2 = p + q + r + s;
 System.out.println(sum2);
-
-// Задание 1
-double myDouble;
-myDouble = 7;
-myDouble = 5;
-
-// Создаем константы
-final double PI = 3.14159265359;
-final double GRAVITY = 9.81;
-final String HOMETOWN = "Алматы ";
-
-// Создаем переменные разных типов данных
-byte myByte = 1;
-short myShort = 1000;
-int myInt = 1000000000;
-long myLong = 1000000000000000L;
-double myDouble2 = 1.5;
-float myFloat = 1.12f;
-boolean myBoolean = true;
-char myChar = 'A';
-String myString = "Интересная задача";
-
-// Выводим значения переменных в консоль
-System.out.println("myByte: " + myByte);
-System.out.println("myShort: " + myShort);
-System.out.println("myInt: " + myInt);
-System.out.println("myLong: " + myLong);
-System.out.println("myDouble2: " + myDouble2);
-System.out.println("myFloat: " + myFloat);
-System.out.println("myBoolean: " + myBoolean);
-System.out.println("myChar: " + myChar);
-System.out.println("myString: " + myString);
-// Выводим значения переменных в консоль
-System.out.println("myByte: " + myByte);
-System.out.println("myShort: " + myShort);
-System.out.println("myInt: " + myInt);
-System.out.println("myLong: " + myLong);
-System.out.println("myDouble2: " + myDouble2);
-System.out.println("myFloat: " + myFloat);
-System.out.println("myBoolean: " + myBoolean);
-System.out.println("myChar: " + myChar);
-System.out.println("myString: " + myString);
-// Выводим значения констант
-System.out.println("PI: " + PI);
-System.out.println("GRAVITY: " + GRAVITY);
-System.out.println("HOMETOWN: " + HOMETOWN);
-int a = 5;
-System.out.println("a += 10: " + (a += 10));
-System.out.println("a -= 3: " + (a -= 3));
-System.out.println("a *= 2: " + (a *= 2));
-System.out.println("a /= 6: " + (a /= 6));
-System.out.println("a <<= 4: " + (a <<= 4));
-System.out.println("a >>= 3: " + (a >>= 3));
  */
 
     }
