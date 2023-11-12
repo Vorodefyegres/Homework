@@ -1,17 +1,5 @@
 
-\
-java:S1854y":Remove this useless assignment to local variable "letter".(æ»–·úÿÿÿÿ8öŠ­Ù·1
-V
-java:S1854{":Remove this useless assignment to local variable "letter".(˜ÜÕe8÷Š­Ù·1
-W
-java:S1854}":Remove this useless assignment to local variable "letter".(¨Ÿ›8÷Š­Ù·1
-W
-java:S1854":Remove this useless assignment to local variable "letter".(ëÔï8÷Š­Ù·1
-]
-java:S1854":Remove this useless assignment to local variable "letter".(€ñùÿÿÿÿÿ8÷Š­Ù·1
-]
-java:S1854ƒ":Remove this useless assignment to local variable "letter".(Èèòşÿÿÿÿ8÷Š­Ù·1
-X	java:S125"<This block of commented-out lines of code should be removed.(ƒıí«8ûé©Ù·1
-H
-java:S1481w"+Remove this unused "letter" local variable.(ÒÊÙ¼8úŠ­Ù·1
-M	java:S106…"+Replace this use of System.out by a logger.(ÄºŞşÿÿÿÿ8ûŠ­Ù·1
+
+java:S1488ƒ"\Immediately return this expression instead of assigning it to the temporary variable "area".(òÁû£şÿÿÿÿ8±»„§¼1
+X	java:S125"<This block of commented-out lines of code should be removed.(ƒıí«8İÎƒ§¼1
+L	java:S106"+Replace this use of System.out by a logger.(Å¨éãÿÿÿÿÿ8À»„§¼1

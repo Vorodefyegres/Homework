@@ -52,8 +52,7 @@ public class HomeWork6 {
 
         // Task 4.1
         int[] arr4 = {1, 3, -6, 23, 14, 2};
-        int x = 23;
-        int y = -1;
+        int x = 23, y = -1;
 
         for (int i : arr4) {
             if (arr4[i] == x) {
@@ -66,8 +65,7 @@ public class HomeWork6 {
 
         // Task 4.2
         int[] array = {1, 3, -6, 23, 14, 2};
-        int r = 5;
-        int f = -1;
+        int r = 5, f = -1;
         for (int i = 0; i < array.length; i++) {
             if (array[i] == r) {
                 f = i;
@@ -117,8 +115,7 @@ public class HomeWork6 {
         System.out.println();
         // Task 6
         int[] arr6 = {1, 3, -6, 23, 14, 2};
-        int min1 = arr6[0];
-        int max1 = arr6[0];
+        int min1 = arr6[0], max1 = arr6[0];
 
         for (int i = 1; i < arr6.length; i++) {
             if (arr6[i] < min1) {
@@ -134,8 +131,7 @@ public class HomeWork6 {
 
         // Task 7
         int[] arr7 = {1, 3, -6, 23, 14, 2};
-        int small1 = arr7[0];
-        int small2 = arr7[0];
+        int small1 = arr7[0], small2 = arr7[0];
 
         for (int i : arr7) {
             if (i < small1 ) {
@@ -286,9 +282,7 @@ public class HomeWork6 {
 
         // Additional task 1
         int[][] arr14 = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
-        int t  = 20;
-        int x1 = -1;
-        int y1 = -1;
+        int t  = 20, x1 = -1, y1 = x1;
         boolean k = false;
 
         for (int i = 0; i < arr14.length; i++) {
@@ -344,9 +338,7 @@ public class HomeWork6 {
 
         // Additional task 4
         int[][] arr17 = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
-
-        int max2 = arr17[0][0];
-        int min2 = arr17[0][0];
+        int max2 = arr17[0][0], min2 = arr17[0][0];
 
         for (int i = 0; i < arr17.length; i++) {
             for (int j = 0; j < arr17[i].length; j++) {

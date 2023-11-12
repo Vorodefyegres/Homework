@@ -1,0 +1,80 @@
+
+i
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(¦Ã§áþÿÿÿÿ8ÝÁÝ“¼1
+p
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 153 to the 15 allowed.(Çµí‘8¬ÈÝ“¼1
+<
+java:S16597"Declare "y" on a separate line.(õçÕ—8¿ÈÝ“¼1
+A
+java:S1659D"Declare "f" on a separate line.(¨‘Ï±úÿÿÿÿ8ÀÈÝ“¼1
+=
+java:S1659T" Declare "m1" on a separate line.(ž¥8ÀÈÝ“¼1
+=
+java:S1659e" Declare "m2" on a separate line.(åñ¼¡8ÀÈÝ“¼1
+?
+java:S1659v""Declare "max1" on a separate line.(‹þÉ”8ÀÈÝ“¼1
+B
+java:S1659†"$Declare "small2" on a separate line.(÷â‡Ù8ÁÈÝ“¼1
+C
+java:S1659Ä" Declare "a2" on a separate line.(¼¶¼†úÿÿÿÿ8ÁÈÝ“¼1
+D
+java:S1659‹"!Declare "min" on a separate line.(‡ž¡ºúÿÿÿÿ8ÁÈÝ“¼1
+]
+java:S1659"?Declare "x1" and all following declarations on a separate line.(õ†ÕÖ8Žµà“¼1
+@
+java:S1659Ã""Declare "num3" on a separate line.(­Æ®»8ÁÈÝ“¼1
+@
+java:S1659Õ""Declare "min2" on a separate line.(¡ÓŒ¨8êæâ“¼1
+L	java:S106"+Replace this use of System.out by a logger.(„µÅˆøÿÿÿÿ8ÂÈÝ“¼1
+L	java:S106"+Replace this use of System.out by a logger.(°¨ˆúÿÿÿÿ8ÃÈÝ“¼1
+M
+java:S1481"0Remove this unused "isDuplicate" local variable.(†²¾Å8ÃÈÝ“¼1
+F	java:S106"+Replace this use of System.out by a logger.(¹ÂŒU8ÃÈÝ“¼1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ÄÈÝ“¼1
+L	java:S106%"+Replace this use of System.out by a logger.(¶·¶”þÿÿÿÿ8ÅÈÝ“¼1
+L	java:S1063"+Replace this use of System.out by a logger.(Å­ËÝúÿÿÿÿ8ÈÈÝ“¼1
+L	java:S106@"+Replace this use of System.out by a logger.(ëÅ“úÿÿÿÿ8ÈÈÝ“¼1
+F	java:S106M"+Replace this use of System.out by a logger.(ö‰Š;8ÉÈÝ“¼1
+G	java:S106O"+Replace this use of System.out by a logger.(‰˜†•8ÊÈÝ“¼1
+L	java:S106["+Replace this use of System.out by a logger.(Æãžšøÿÿÿÿ8ÌÈÝ“¼1
+L	java:S106]"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ8ÌÈÝ“¼1
+L	java:S106b"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ÍÈÝ“¼1
+L	java:S106m"+Replace this use of System.out by a logger.(ü’ÑÎúÿÿÿÿ8ÎÈÝ“¼1
+L	java:S106o"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ8ÏÈÝ“¼1
+L	java:S106s"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ÏÈÝ“¼1
+M	java:S106"+Replace this use of System.out by a logger.(àµ·óúÿÿÿÿ8ÐÈÝ“¼1
+M	java:S106‚"+Replace this use of System.out by a logger.(ïöÎæûÿÿÿÿ8ÐÈÝ“¼1
+H	java:S106‘"+Replace this use of System.out by a logger.(ù˜—Î8ÑÈÝ“¼1
+M	java:S106’"+Replace this use of System.out by a logger.(ª‰¼æøÿÿÿÿ8ÒÈÝ“¼1
+E
+java:S1659™""Declare "num2" on a separate line.(˜²…‹ùÿÿÿÿ8ÔÈÝ“¼1
+B
+java:S1659š"$Declare "order2" on a separate line.(û¾ý8ÔÈÝ“¼1
+M	java:S106¯"+Replace this use of System.out by a logger.(®ýáëûÿÿÿÿ8ÕÈÝ“¼1
+H	java:S106½"+Replace this use of System.out by a logger.(­¿¨Þ8ÖÈÝ“¼1
+M	java:S106¿"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ÖÈÝ“¼1
+H	java:S106Î"+Replace this use of System.out by a logger.(ÉþÄ8×ÈÝ“¼1
+M	java:S106Ð"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8×ÈÝ“¼1
+H	java:S106Ü"+Replace this use of System.out by a logger.(ó‰¹ú8×ÈÝ“¼1
+M	java:S106ê"+Replace this use of System.out by a logger.(¹ò“æÿÿÿÿÿ8ØÈÝ“¼1
+M	java:S106ø"+Replace this use of System.out by a logger.(¤ïôžùÿÿÿÿ8ØÈÝ“¼1
+M	java:S106"+Replace this use of System.out by a logger.(Šäóûÿÿÿÿ8ÙÈÝ“¼1
+M	java:S106ƒ"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ8ÙÈÝ“¼1
+M	java:S106†"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ÙÈÝ“¼1
+M	java:S106˜"+Replace this use of System.out by a logger.(¨ÅãÖþÿÿÿÿ8ÚÈÝ“¼1
+M	java:S106™"+Replace this use of System.out by a logger.(èœæ÷üÿÿÿÿ8ÚÈÝ“¼1
+M	java:S106¯"+Replace this use of System.out by a logger.(ÄÎÈþÿÿÿÿ8ÛÈÝ“¼1
+G	java:S106±"+Replace this use of System.out by a logger.(¼¶½e8ÛÈÝ“¼1
+H	java:S106½"+Replace this use of System.out by a logger.(ÿÏ¹Ž8ÜÈÝ“¼1
+M	java:S106Î"+Replace this use of System.out by a logger.(úº‘žüÿÿÿÿ8ÝÈÝ“¼1
+M	java:S106Ð"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ÝÈÝ“¼1
+H	java:S106â"+Replace this use of System.out by a logger.(ÉÄãå8øÈÝ“¼1
+H	java:S106ã"+Replace this use of System.out by a logger.(ØÞû8øÈÝ“¼1
+H	java:S106ö"+Replace this use of System.out by a logger.(©Ø¾±8ùÈÝ“¼1
+M	java:S106ø"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ùÈÝ“¼1
+G	java:S106‹"+Replace this use of System.out by a logger.(Á£Ä8úÈÝ“¼1
+M	java:S106"+Replace this use of System.out by a logger.(”è¹Ýüÿÿÿÿ8úÈÝ“¼1
+H	java:S106"+Replace this use of System.out by a logger.(ê€Õ—8€ÉÝ“¼1
+M	java:S106Ÿ"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8€ÉÝ“¼1
+å
+java:S6541"ÇA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 329 to 64, Complexity from 92 to 14, Nesting Level from 4 to 2, Number of Variables from 136 to 6.(Çµí‘8ÉÝ“¼1

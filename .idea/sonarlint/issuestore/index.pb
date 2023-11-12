@@ -9,3 +9,7 @@ B
 src/HomeWork4.java,6/c/6cc71750a4897ae3cd61e97c501cf35c05faf0bc
 B
 src/HomeWork5.java,8/0/80cf7ed561612e3b7b2604a00ffbb0911e1067e5
+B
+src/HomeWork6.java,0/a/0a5aa68aa957671d0a9d6baf684b708a0489e189
+B
+src/HomeWork7.java,a/a/aa80da283b8429257dde9732fdbead7b063570ee
