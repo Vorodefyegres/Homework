@@ -7,7 +7,7 @@ public class HomeWork7 {
 
         System.out.println("Наименьшее значение: " + minNumber);
 
-        // find Average
+        // find Homework8.Average
         int x1 = 25, y2 = 45, m = 65;
         double average = findAverage(x1, y2, m);
 

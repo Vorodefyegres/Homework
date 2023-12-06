@@ -31,3 +31,5 @@ L
 src/Homework8/Rectangle.java,7/c/7ce83557d821ad913db3c5ea318e7f4629f4575d
 H
 src/Homework8/Movie.java,4/f/4fe643d89a54ecf0ceec2f125fe471d481b38503
+J
+src/Homework8/Average.java,9/2/92d9288e9950faef94bc2a896d286c2e511ef557
