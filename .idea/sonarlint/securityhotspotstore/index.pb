@@ -31,3 +31,19 @@ L
 src/Homework8/Rectangle.java,7/c/7ce83557d821ad913db3c5ea318e7f4629f4575d
 H
 src/Homework8/Movie.java,4/f/4fe643d89a54ecf0ceec2f125fe471d481b38503
+J
+src/Homework8/Average.java,9/2/92d9288e9950faef94bc2a896d286c2e511ef557
+J
+src/Homework9/Student.java,9/6/9660b7cc21030205b650cf796cf21bacb94ce3c4
+O
+src/Homework9/StarTriangle.java,3/f/3fedeb35d1844880f0913c417c47844b3941672e
+I
+src/Homework9/Square.java,3/2/32e4f22e5ce462ef6559af57621c8bbfd944e918
+N
+src/Homework9/Temperature.java,5/e/5ed600abf4c99b21fb7a191660e777eb756a57a5
+H
+src/Homework9/Outer.java,5/1/511a7019e51323211433f1570ef8bbfe09ac058a
+J
+src/Homework9/Vehicle.java,9/4/941307b4ea30dadb4367c539f0cba15b86d2afcd
+G
+src/Homework9/Book.java,2/9/29745148aaf946ef29f5a4b20789f33f313a8579
