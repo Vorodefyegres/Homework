@@ -1,5 +1,3 @@
 
-
-java:S1488ƒ"\Immediately return this expression instead of assigning it to the temporary variable "area".(òÁû£şÿÿÿÿ8±»„§¼1
-X	java:S125"<This block of commented-out lines of code should be removed.(ƒıí«8İÎƒ§¼1
-L	java:S106"+Replace this use of System.out by a logger.(Å¨éãÿÿÿÿÿ8À»„§¼1
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8ô‚»ûÃ1
