@@ -1,36 +1,0 @@
-
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÇşÂ8ôÖìéµ1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÿÎ“8õÖìéµ1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á’ Í8õÖìéµ1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÿÚ8õÖìéµ1
-m	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ™¥ğ8õÖìéµ1
-r	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯—À‚øÿÿÿÿ8õÖìéµ1
-R
-java:S1854?"6Remove this useless assignment to local variable "b1".(Äàé=8üÖìéµ1
-S
-java:S1854>"6Remove this useless assignment to local variable "a1".(¿§¶ª8üÖìéµ1
-Y
-java:S18549"7Remove this useless assignment to local variable "num".(ºÑîâùÿÿÿÿ8üÖìéµ1
-L	java:S106"+Replace this use of System.out by a logger.(›êŞÂúÿÿÿÿ8ÿÖìéµ1
-G	java:S106	"+Replace this use of System.out by a logger.(àÓ¨¨8ÿÖìéµ1
-L	java:S106"+Replace this use of System.out by a logger.(Ú‡¥şÿÿÿÿ8€×ìéµ1
-G	java:S106"+Replace this use of System.out by a logger.(›àÒ8€×ìéµ1
-G	java:S106"+Replace this use of System.out by a logger.(‰·áü8€×ìéµ1
-G	java:S106"+Replace this use of System.out by a logger.(†»ºµ8€×ìéµ1
-L	java:S106"+Replace this use of System.out by a logger.(µÏ…èùÿÿÿÿ8€×ìéµ1
-L	java:S106"+Replace this use of System.out by a logger.(Ëéÿ˜ùÿÿÿÿ8×ìéµ1
-G	java:S106""+Replace this use of System.out by a logger.(ÈÈü8×ìéµ1
-L	java:S106-"+Replace this use of System.out by a logger.(õ²ÓÈúÿÿÿÿ8×ìéµ1
-G	java:S106."+Replace this use of System.out by a logger.(­±¤€8×ìéµ1
-L	java:S106/"+Replace this use of System.out by a logger.(ÆŞÙäúÿÿÿÿ8‚×ìéµ1
-L	java:S1060"+Replace this use of System.out by a logger.(Ğ³á¿şÿÿÿÿ8‚×ìéµ1
-L	java:S1061"+Replace this use of System.out by a logger.(æ¾Â úÿÿÿÿ8‚×ìéµ1
-F	java:S1066"+Replace this use of System.out by a logger.(îĞe8‚×ìéµ1
-J
-java:S14819"(Remove this unused "num" local variable.(ºÑîâùÿÿÿÿ8‚×ìéµ1
-L	java:S106;"+Replace this use of System.out by a logger.(…ÚÇˆıÿÿÿÿ8„×ìéµ1
-D
-java:S1481>"'Remove this unused "a1" local variable.(¿§¶ª8…×ìéµ1
-C
-java:S1481?"'Remove this unused "b1" local variable.(Äàé=8…×ìéµ1
-G	java:S106B"+Replace this use of System.out by a logger.(ÔÎ©‘8†×ìéµ1

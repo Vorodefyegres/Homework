@@ -1,0 +1,7 @@
+
+i
+java:S1192
+"GDefine a constant instead of duplicating this literal "Banana" 4 times.(”àÍ–ıÿÿÿÿ8éÀ·Ê1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿµ’şÿÿÿÿ
+G	java:S106"+Replace this use of System.out by a logger.(ğ“ß8Á·Ê1
+F	java:S106"+Replace this use of System.out by a logger.(Á‚U8ŸÁ·Ê1

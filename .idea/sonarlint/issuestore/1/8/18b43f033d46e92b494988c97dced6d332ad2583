@@ -1,0 +1,5 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿµ’şÿÿÿÿ
+n
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ÇÉâƒûÿÿÿÿ8–Ö³¾È1
+m	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘š´À8–Ö³¾È1
